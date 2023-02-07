@@ -1,0 +1,39 @@
+h1 {
+    color: indigo;
+    text-align: center;
+    width: 50%;
+    font-weight: 100;
+    text-decoration: blue underline;
+}
+
+input {
+    color: magenta;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
+}
+p {
+    color: saddlebrown;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #f12942
+}
+
+label {
+    background-color: aqua;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div {
+    background-color: beige;
+}
+
+/* ID selector e.g. if ID = "signup" */
+#signup {
+    text-decoration: purple underline;
+}

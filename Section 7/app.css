@@ -1,0 +1,128 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1f1b29;
+}
+
+button {
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    border-color: #faffa4;
+    color: white;
+    box-shadow: 0px 5px 10px -5px #faffa4;
+    transform: translate(0, -0.25em);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* div {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: #3d405b;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block
+}
+
+#middle {
+    background-color: #81b29a;
+}
+
+#static #middle {
+    position: static;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    background-color: peru;
+    border-radius: 50%;
+    border-width: 0;
+    transition: 0.2s;
+    /* https://easings.net/ */
+/* }
+
+.circle:hover {
+    background-color: rgb(240, 137, 69);
+    border-radius: 30%;
+    border-width: 0;
+}
+
+.circle:active {
+    background-color: #3d405b;
+    border-radius: 10%;
+    border-width: 0;
+} */
+
+
+
+/* div {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h1 {
+    background-color: rgb(224, 164, 174);
+}
+
+.one {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.two {
+    /* width | style | color */
+    /*border: 5px dashed red;
+}
+
+.three {
+    background-color: bisque;
+    border: 3px solid black;
+    border-right-style: dotted;
+    border-radius: 10%;
+    border-top-left-radius: 30%;
+    padding: 10px 25px;
+    margin: 10px 20px;
+} */
+

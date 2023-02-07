@@ -1,0 +1,61 @@
+/* span selector test class = "tag"*/
+.tag {
+    color: lightcoral;
+}
+/* id selector test */
+#login {
+    text-decoration: underline;
+    background-color: aquamarine;
+}
+
+/* descendent selector */
+
+li a {
+    text-decoration: none;
+}
+
+/* Adjacent selector */
+
+input + button {
+    background-color: red;
+}
+
+footer a {
+    color: red;
+}
+footer > a {
+    color: lightblue;
+}
+
+/* attribute selector where *= is contains */
+input[type="password"] {
+    background-color:blueviolet;
+}
+input[type*="demo"] {
+    background-color:blue;
+}
+
+/* pseudo classes hover, click test its like a state of an input or something */
+button:hover {
+    background-color: orangered;
+}
+
+button:active {
+    color:green;
+}
+
+input[type="checkbox"]:checked {
+    border-radius: 5px;
+}
+
+/* every other post gets something */
+
+.post:nth-of-type(2n){
+    background-color: floralwhite;
+}
+
+/* pseudo elements https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements */
+
+h1::first-letter {
+    color: red;
+}
