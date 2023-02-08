@@ -6,6 +6,7 @@ body {
 }
 
 h1 {
+    padding: 20px 0px 0px 0px;
     font-family: 'Lato', sans-serif;
     font-size: 2em;
     color:rgb(32, 139, 123);
@@ -14,13 +15,27 @@ h1 {
 .gallery {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 5% 2%;
 }
 
 img {
     width: 30%;
     height: 30%;
+    /* object-position: 0 50%; */
+}
+
+#cover img {
+    width: 100%;
+    height: 100%;
+}
+
+.ident {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: large;
 }
 
 .menu {
@@ -28,7 +43,8 @@ img {
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(35, 169, 102);
-    padding: 2% 5%;
+    padding: 4% 10%;
+    margin: -2% -5%;
     color:aliceblue;
 }
 
@@ -39,7 +55,15 @@ ul{
     justify-content: space-between;
 }
 
+li{
+    padding: 3px 20px;
+}
+
 .logo img {
-    width: 24px;
-    height: 23px;
+    width: 30%;
+    height: 30%;
+}
+
+.text {
+    padding: 40px 40px;
 }
