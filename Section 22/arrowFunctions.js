@@ -18,6 +18,23 @@ const add3 = (x,y) => {
 const add4 = (x,y) => (
     x + y
 )
-// to make it all on one line:
+// to make it all on one line: (implicit returns)
 
 const add5 = (x,y) => (x + y)
+
+// arrow function wrapup - using maps (returns arrays of iterated items)
+const newMovies = movies.map( function (movie) {
+    return `${movie.title} - ${movie.score} / 10`;
+}
+)
+
+//arrow function version
+
+const newMovies2 = movies.map(
+    (movie) => {
+        return `${movie.title} - ${movie.score} / 10`;
+    }
+)
+//or simplified:
+
+const newMovies3 = movies.map(movies => (`${movie.title} - ${movie.score} / 10`))
