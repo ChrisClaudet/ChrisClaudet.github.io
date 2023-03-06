@@ -7,6 +7,8 @@ const [gold, silver, ...everyoneElse] = scores;
 //if you console.log silver = 899341
 
 
+
+
 //Destructuring objects
 
 const user = {
@@ -26,3 +28,28 @@ const user = {
 // Instead of this: const {email} = user.email;
 const { email,firstName,lastName,city,bio } = user;
 //This makes 5 different variables because they are the same string
+
+//to change the var name:
+
+const {born: birthYear} = user;
+//So birthYear = 1930
+
+
+
+
+//Param destructuring
+
+function fullName(user){
+    return `${user.firstName} ${user.lastName}`
+}
+
+function fullName2(user){
+    const {firstName, lastName} = user;
+    return `${firstName} ${lastName}`
+}
+
+function fullName3({firstName, lastName}){
+    return `${firstName} ${lastName}`
+}
+
+//fullName3 is frequently used to destructure objects
