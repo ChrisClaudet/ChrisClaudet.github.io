@@ -15,6 +15,7 @@ document.querySelector('img:nth-of-type(2)')
 //this selects the second image in the page
 
 document.querySelector('a[title="Java"]')
+const checkbox = document.querySelector('input[type="checkbox"]')
 //this selects anchor tag with title attribute of "Java"
 
 
