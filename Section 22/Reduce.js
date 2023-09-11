@@ -2,7 +2,6 @@ const prices = [9.99, 10.99, 15.50, 30.40, 19.99, 25.50]
 
 const total = prices.reduce((total, price) => total + price)
 //this will add them accumulated all together
-//price is the current iteratable e.g. 10.99, total in each iteration is the output 21.98 (in second iteration)
 
 
 const maximum = prices.reduce((min, price) => {
@@ -50,3 +49,5 @@ const highestRated = movies.reduce((bestMovie, currMovie) => {
     }
     return bestMovie;
 })
+
+//this will return the highest rated movie

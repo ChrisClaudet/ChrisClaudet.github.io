@@ -31,3 +31,4 @@ const squareImages = document.getElementsByClassName('square');
 for(let img of squareImages){
     img.src = "https://www.google.com"
 }
+

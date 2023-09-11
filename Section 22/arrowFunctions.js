@@ -37,4 +37,6 @@ const newMovies2 = movies.map(
 )
 //or simplified:
 
-const newMovies3 = movies.map(movies => (`${movie.title} - ${movie.score} / 10`))
+const newMovies3 = movies.map(movies => (
+    `${movie.title} - ${movie.score} / 10`
+))

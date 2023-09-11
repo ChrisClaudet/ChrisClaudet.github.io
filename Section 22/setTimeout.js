@@ -11,4 +11,4 @@ const id = setInterval(() => {
 //Every 2 seconds prints random math number - repeats all the time lol
 //setInterval has an ID to stop it saved in a var
 
-clearInterval(id)
+clearInterval(id) //this would clear the repeat straight away, so run it later or in the console somehow
