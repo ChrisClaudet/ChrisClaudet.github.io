@@ -1,0 +1,11 @@
+
+Crucial!
+- Events
+- addEventListener
+- Forms Events
+
+Important
+- Keyboard Events
+- Input & Change Events
+- Event Bubbling
+- Event Delegation (hard, don't panic)

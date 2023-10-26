@@ -33,3 +33,23 @@ movies.forEach(function (movie){
 })
 
 //This would print them like Aliens - 99/100 /n Titanic - 80/100
+
+
+// Exercise for later using iteration, like enumerate
+text = "RAINBOW"
+const colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+
+for (let i = 0; i < text.length; i++){
+    const letter = text[i];
+    const color = colors[i%colors.length];
+    letterColors.push({letter, color});
+}
+
+// Or you can use forEach
+const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+const letterArray = document.querySelectorAll("span");
+
+// Iterate through each span and assign a color
+letterArray.forEach((span, index) => {
+  span.style.color = colors[index % colors.length];
+});
