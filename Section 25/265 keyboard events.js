@@ -97,20 +97,20 @@ form.addEventListener("submit", function (e){
 
 //Coding exercise:
 // Leave the next line, the form must be assigned to a variable named 'form' in order for the exercise test to pass
-const form = document.querySelector('form');
-const ul = document.querySelector("#list");
+const form5 = document.querySelector('form5');
+const ul5 = document.querySelector("#list");
 
-form.addEventListener("submit", function (e){
-    e.preventDefault();
+form5.addEventListener("submit", function (e){
+    e.preventDefaul5t();
     
-    const product = (form.elements.product.value);
-    const quantity = (form.elements.qty.value);
+    const product = (form5.elements.product.value);
+    const quantity = (form5.elements.qty.value);
     
     const newLi = document.createElement("li");
     newLi.innerText = product;
     newLi.innerText += ' ' +quantity;
-    ul.appendChild(newLi);
-    form.reset();
+    ul5.appendChild(newLi);
+    form5.reset();
 })
 
 //The HTML:

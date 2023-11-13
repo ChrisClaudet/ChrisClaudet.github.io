@@ -1,0 +1,55 @@
+body {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    margin: 0 auto;
+    height: 100vh; /* This is so body takes up the whole height of the viewport */
+    background-color: aliceblue;
+}
+
+.inside {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #FFF;
+    margin: 2px;
+}
+
+#banner {
+    padding: 0;
+}
+
+#selectMaxScore {
+    flex-direction: row;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#header {
+    background-color: #FFF;
+    
+}
+
+button {
+    width: 100%;
+}
+
+#pingPongImage {
+    max-width: 600px;
+}
+
+.winner {
+    color: #128f12;
+}
+
+.loser {
+    color: #ba2121;
+}
