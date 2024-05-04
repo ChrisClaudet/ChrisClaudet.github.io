@@ -11,11 +11,11 @@ const fakeRequest = (url) => {
 }
 
 fakeRequest('/dogs/1')
-    .then((data) => {
+    .then((data) => { //resolved run code when win
         console.log("DONE WITH REQUEST!")
         console.log('data is:', data)
     })
-    .catch((err) => {
+    .catch((err) => { //error - run code when it fails
         console.log("OH NO!", err)
     })
 

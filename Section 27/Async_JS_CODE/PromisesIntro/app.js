@@ -24,29 +24,29 @@ const fakeRequestPromise = (url) => {
 }
 
 
-// fakeRequestCallback('books.com/page1',
-//     function (response) {
-//         console.log("IT WORKED!!!!")
-//         console.log(response)
-//         fakeRequestCallback('books.com/page2',
-//             function (response) {
-//                 console.log("IT WORKED AGAIN!!!!")
-//                 console.log(response)
-//                 fakeRequestCallback('books.com/page3',
-//                     function (response) {
-//                         console.log("IT WORKED AGAIN (3rd req)!!!!")
-//                         console.log(response)
-//                     },
-//                     function (err) {
-//                         console.log("ERROR (3rd req)!!!", err)
-//                     })
-//             },
-//             function (err) {
-//                 console.log("ERROR (2nd req)!!!", err)
-//             })
-//     }, function (err) {
-//         console.log("ERROR!!!", err)
-//     })
+fakeRequestCallback('books.com/page1',
+    function (response) {
+        console.log("IT WORKED!!!!") //success of fake callback
+        console.log(response) //in case fakecallback fails
+        fakeRequestCallback('books.com/page2',
+            function (response) {
+                console.log("IT WORKED AGAIN!!!!") //success of nested fake callback (only works if first one works)
+                console.log(response) //in case fake callback fails
+                fakeRequestCallback('books.com/page3',
+                    function (response) {
+                        console.log("IT WORKED AGAIN (3rd req)!!!!")
+                        console.log(response)
+                    },
+                    function (err) {
+                        console.log("ERROR (3rd req)!!!", err)
+                    })
+            },
+            function (err) {
+                console.log("ERROR (2nd req)!!!", err)
+            })
+    }, function (err) {
+        console.log("ERROR!!!", err)
+    })
 
 
 
